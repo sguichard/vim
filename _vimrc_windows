@@ -1,3 +1,5 @@
+" Set this as your vimrc file on Windows machines
+" So you can use a centralized vim configuration saved in Dropbox
 set runtimepath+=c:/Dropbox/work/vim
 source c:\Dropbox\vim\vimrc.vim
 

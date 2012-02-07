@@ -1,2 +1,4 @@
+" Set this as your vimrc file on Linux machines
+" So you can use a centralized vim configuration saved in Dropbox
 set runtimepath+=~/Dropbox/vim
 source ~/Dropbox/vim/vimrc.vim

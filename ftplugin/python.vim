@@ -1,4 +1,10 @@
-map <buffer> <S-e>:asdfw<CR>:!python "%" <CR>
-setlocal expandtab
-setlocal shiftwidth=4
-setlocal softtabstop=4
+" Disallows hard tabs
+set expandtab
+" Pressing tab equals 4 spaces
+set softtabstop=4
+" Using <Shift> > or < equals 4 spaces
+set shiftwidth=4
+" Set max line length to conform with PEP *
+set textwidth=79
+" Vim will display hard tabs as 8 spaces (so we can find and eliminate them)
+set tabstop=8
