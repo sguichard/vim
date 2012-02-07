@@ -12,11 +12,9 @@ set backspace=2
 set ft=python
 " Toggle line numbers and fold column for easy copying:
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
-
+" Runs filetype-specific .vim file
+" First checks /usr/share/vim/vim73 then /Dropbox/vim foler
 filetype plugin on
+" Runs filetype-specific .vim file for indenting. That file does not adjust indent
+" length.
 filetype indent on
-
-"autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
-
-
-map <buffer> <S-e>:w<CR>:!python "%"<CR>
