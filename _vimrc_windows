@@ -1,0 +1,3 @@
+set runtimepath+=c:/Dropbox/work/vim
+source c:\Dropbox\vim\vimrc.vim
+
